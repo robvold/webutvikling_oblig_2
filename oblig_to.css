@@ -97,7 +97,7 @@ main article p {
 main div div {
 	height: 333px;
 	width: 33%;
-	background-color: #c5c7c9;
+	background-color: #EEEEEE;
 	margin-top: 10px;
 }
 .bildeDiv {
@@ -123,7 +123,7 @@ td, th{
 	padding: 5px;
 }
 tr:nth-child(2) {
-	background-color: blue;
+	background-color: #EEEEEE;
 }
 #bilderOmSide {
 	padding: 20px;
@@ -137,15 +137,17 @@ circle {
 rect {
 	fill: green;
 }
+#obliger {
+	background-color: #EEEEEE;
+	width: 100%;
+}
 
 
-/* #EEEEEE */
 
-/*Husk spør om ting*/
 
 /*bunn*/
 footer {
-	background-color: #c5c7c9;
+	background-color: rgb(245,245,245);
 	height: 48px;
 	border-top: 1px solid;
 	margin-top: 10px;
@@ -163,7 +165,6 @@ footer p {
 
 
 /*
-*Kommende obliger
 *Bilde av GitHub
 */
 
