@@ -80,7 +80,7 @@ a:active {
 
 
 
-/*hovedinnhold*/
+/*hovedbokser*/
 main {
 	padding-top: 0px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -120,7 +120,7 @@ table, tr, td, th{
 	border: 1px solid;
 }
 td, th{
-	padding: 5px;
+	padding: 10px;
 }
 tr:nth-child(2) {
 	background-color: #EEEEEE;
@@ -140,6 +140,11 @@ rect {
 #obliger {
 	background-color: #EEEEEE;
 	width: 100%;
+	margin: 40px 0px;
+}
+h2 {
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
 }
 
 
@@ -166,6 +171,7 @@ footer p {
 
 /*
 *Bilde av GitHub
+*forside ellers
 */
 
 
