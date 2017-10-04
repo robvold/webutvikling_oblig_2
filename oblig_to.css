@@ -38,6 +38,7 @@ header h1{
 }
 header h1 a{
 	text-decoration: none;
+	font-size: 36px;
 }
 /*nav*/
 header nav ul{
@@ -121,7 +122,7 @@ table, tr, td, th{
 td, th{
 	padding: 5px;
 }
-table:nth-child(2) {
+tr:nth-child(2) {
 	background-color: blue;
 }
 #bilderOmSide {
@@ -145,6 +146,7 @@ rect {
 /*bunn*/
 footer {
 	background-color: #c5c7c9;
+	height: 48px;
 	border-top: 1px solid;
 	margin-top: 10px;
 }
@@ -161,7 +163,6 @@ footer p {
 
 
 /*
-*tabbell, med klasser ??????
 *Kommende obliger
 *Bilde av GitHub
 */
