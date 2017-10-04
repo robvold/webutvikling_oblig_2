@@ -102,18 +102,21 @@ main div div {
 }
 .bildeDiv {
 	width: 66%;
-	background-color: #c5c7c9;
 }
-
-
-
-
-/*innhold i de forskjellige sidene*/
 .flex {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap:wrap;
 }
+.divTo {
+	width: 40%;
+	margin: 0px 5%;
+	margin-top: 10px;
+	border: 1px solid;
+}
+
+
+/*innhold i de forskjellige sidene*/
 /*liste, om oss*/
 table, tr, td, th{
 	border-collapse: collapse;
