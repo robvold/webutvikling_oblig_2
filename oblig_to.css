@@ -1,0 +1,172 @@
+/*Nullstiller alt browseren evtuelt har med seg*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	box-sizing: border-box; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro');
+
+#hovedboks{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+
+
+
+
+/*overlinjen*/
+header {
+	background: linear-gradient(to bottom, rgba(245,245,245,1) 24%,rgba(245,245,245,0.8) 75%,rgba(245,245,245,0.2) 100%);
+	display: flex;
+	
+	position: fixed;
+	width: 1000px;
+
+}
+header h1{
+	margin: 0px;
+	padding: 12px;
+	font-family: 'Lato', sans-serif;
+}
+header h1 a{
+	text-decoration: none;
+}
+/*nav*/
+header nav ul{
+	list-style: none;
+}
+/*legger listeelementene på samme linje*/
+header nav ul li{
+	display: inline-block;
+	font-size: 20px;
+	padding: 20px;
+	font-family: 'Lato', sans-serif;
+}
+header nav ul li a{
+	text-decoration: none;
+}
+/*for å få farge når musa er over elementene (setter ikke hover over linken fordi da får jeg bare paddinga på a som er 0)*/
+header nav ul li:hover {
+	background-color: #c5c7c9;
+}
+header h1:hover{
+	background-color: #c5c7c9;
+}
+
+/*Pseudoklassene*/
+a:link {
+    color: black;
+}
+a:visited {
+    color: #4d4d4d;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: black;
+}
+
+
+
+
+
+/*hovedinnhold*/
+main {
+	padding-top: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+#bildeForside {
+	border-bottom: 1px solid;
+}
+main article {
+	padding-top: 70px;
+}
+main article p {
+	padding-bottom: 20px;
+}
+main div div {
+	height: 333px;
+	width: 33%;
+	background-color: #c5c7c9;
+	margin-top: 10px;
+}
+.bildeDiv {
+	width: 66%;
+	background-color: #c5c7c9;
+}
+
+
+
+
+/*innhold i de forskjellige sidene*/
+.flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+/*liste, om oss*/
+table, tr, td, th{
+	border-collapse: collapse;
+	border: 1px solid;
+}
+td, th{
+	padding: 5px;
+}
+table:nth-child(2) {
+	background-color: blue;
+}
+#bilderOmSide {
+	padding: 20px;
+}
+math {
+	padding-right: 20px;
+}
+circle {
+	fill: blue;
+}
+rect {
+	fill: green;
+}
+
+
+/* #EEEEEE */
+
+/*Husk spør om ting*/
+
+/*bunn*/
+footer {
+	background-color: #c5c7c9;
+	border-top: 1px solid;
+	margin-top: 10px;
+}
+footer p {
+	font-size: 18px;
+	padding: 15px;
+	float: left;
+}
+.top{
+	float: right;
+	font-size: 22px;
+	padding: 13px;
+}
+
+
+/*
+*tabbell, med klasser ??????
+*Kommende obliger
+*Bilde av GitHub
+*/
+
+
+
+
+
