@@ -29,7 +29,7 @@ header {
 	
 	position: fixed;
 	width: 1000px;
-
+	z-index: 1000;
 }
 header h1{
 	margin: 0px;
@@ -109,8 +109,7 @@ main div div {
 	flex-wrap:wrap;
 }
 .divTo {
-	width: 40%;
-	margin: 0px 5%;
+	width: 48%;
 	margin-top: 10px;
 	border: 1px solid;
 }
@@ -149,6 +148,30 @@ h2 {
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
 }
+
+/*prøvde mye forskjellig men fikk aldri linken til å ikke ha opacity*/
+#matte a {
+	
+	color: black;
+	font-size: 35px;
+	text-decoration: none;
+}
+#matte {
+	padding: 100px;
+	background-image: url("6129310-Math-background-with-formulas-Einstein-formula-of-relativity-Stock-Photo.jpg");
+	filter: opacity(30%);
+	text-align: center;
+}
+#svg {
+	padding: 100px;
+	text-align: center;
+}
+#svg a {
+	font-size: 35px;
+	text-decoration: none;
+}
+
+
 
 
 
